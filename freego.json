@@ -1,0 +1,17 @@
+{
+  "@context": "https://act-rules.github.io/earl-context.json",
+  "@type": [
+    "Assertor",
+    "Project"
+  ],
+  "name": "Freego",
+  "shortdesc": "The official automated test tool released and used by Ministry of Digital Affairs, Taiwan.",
+  "description": "The automated test tool Freego is part of the Web Accessibility Accreditation methodology by Taiwan government. Its latest version, Sep 27 2024, is derived from WCAG 2.1 Level A, AA, and AAA.",
+  "homepage": "https://accessibility.moda.gov.tw/Download/Category/70/1",
+  "release": {
+    "@type": "Version",
+    "created": "2024-10-04",
+    "revision": "Sep 27 2024"
+  },
+  "assertedThat": []
+}
