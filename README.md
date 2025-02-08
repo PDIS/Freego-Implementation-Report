@@ -9,4 +9,4 @@ Freego 是由數位發展部提供的自動化檢測工具，用於台灣各級�
 1. 檢視 ACT Rules Test Cases 規則名稱及內容
 2. 判斷對應的（一個或多個）檢測碼，填入 `Implementation Procedure Name`；若無對應檢測碼，則該規則所有測試案例的 `Outcome` 記錄為 `Inapplicable`
 3. 從 Freego 產出之報告中，找到對應的測試案例段落，檢視其結果。若出現前一步驟對應的檢測碼，即記錄 `Outcome` 為 `Failed`，否則記錄為 `Passed`（即使仍有其他檢測碼的不通過結果）
-4. Freego 產出之報告中，若發生`頁面載入逾時`，則相關的 `Outcome` 欄位記錄為 `Cannot tell`
+4. Freego 產出之報告中，若發生`頁面載入逾時`，則相關的 `Outcome` 欄位記錄為 `Inapplicable`
