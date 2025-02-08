@@ -148,3 +148,35 @@ Freego 是由數位發展部提供的自動化檢測工具，用於台灣各級�
 |[Audio and visuals of video element have transcript](https://www.w3.org/WAI/standards-guidelines/act/rules/1a02b0/proposed/)|[1.2.8](https://www.w3.org/TR/WCAG2/#media-alternative-prerecorded)||||未實作|
 |[Visible label is part of accessible name](https://www.w3.org/WAI/standards-guidelines/act/rules/2ee8b8/proposed/)|[2.5.3](https://www.w3.org/TR/WCAG2/#label-in-name)||||未實作|
 |[Zoomed text node is not clipped with CSS overflow](https://www.w3.org/WAI/standards-guidelines/act/rules/59br37/proposed/)|[1.4.4](https://www.w3.org/TR/WCAG2/#resize-text)||||未實作|
+
+## Freego 檢測碼與 ACT-R 檢測規則相容性
+
+|完全相容|部分相容|不相容|無法對應|
+|--------|--------|------|--------|
+|0|1|15|13|
+
+### 相容性定義
+
+#### 完全相容
+
+指 Freego 檢測碼可對應至 ACT-R 檢測規則，且所有對應規則均達到`一致`之相容性。
+
+完全相容的 Freego 檢測碼表示可獲得國際社群認可，可用於檢測網頁無障礙符合程度。
+
+#### 部分相容
+
+指 Freego 檢測碼可對應至 ACT-R 檢測規則，但僅部分對應規則達到`一致`之相容性，或所有對應規則均達到`部分一致`之相容性。
+
+部分相容的 Freego 檢測碼表示尚有改善空間，應謹慎考量如何用於檢測網頁無障礙符合程度。
+
+#### 不相容
+
+指 Freego 檢測碼可對應至 ACT-R 檢測規則，且所有對應規則均為`不一致`之相容性。
+
+不相容的 Freego 檢測碼表示判斷結果不可信，應重新檢討修訂檢測碼之實作，建議勿用於檢測網頁無障礙符合程度。
+
+#### 無法對應
+
+指 Freego 檢測碼無法對應至 ACT-R 檢測規則。
+
+無法對應的 Freego 檢測碼表示國際社群普遍認為相關檢測規則尚不成熟，極容易誤判，應充分與國際社群討論檢測規則適當性，建議勿用於檢測網頁無障礙符合程度。
