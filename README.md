@@ -47,7 +47,7 @@ Freego 是由數位發展部提供的自動化檢測工具，用於台灣各級�
 
 指某個檢測規則沒有對應檢測碼的情況。
 
-### ACT-R 檢測規則相容性
+### ACT Rules 檢測規則相容性
 
 |一致|部分一致|不一致|未實作|合計|
 |----|--------|------|------|----|
@@ -57,7 +57,7 @@ Freego 是由數位發展部提供的自動化檢測工具，用於台灣各級�
 
 依 [freego.json](https://raw.githubusercontent.com/PDIS/Freego-Implementation-Report/main/freego.json) 整理如下表：
 
-|ACT-R 檢測規則|對應 WCAG|對應檢測碼|特異性|敏感性|相容性|
+|ACT Rules 檢測規則|對應 WCAG|對應檢測碼|特異性|敏感性|相容性|
 |--------------|---------|----------|------|------|------|
 |[Role attribute has valid value](https://www.w3.org/WAI/standards-guidelines/act/rules/674b10/)|[1.3.1](https://www.w3.org/TR/WCAG2/#info-and-relationships), [4.1.2](https://www.w3.org/TR/WCAG2/#name-role-value)|[HM1410200C](https://accessibility.moda.gov.tw/Download/Detail/1525)|8/8|0/2|不一致|
 |[ARIA state or property has valid value](https://www.w3.org/WAI/standards-guidelines/act/rules/6a7281/)|[1.3.1](https://www.w3.org/TR/WCAG2/#info-and-relationships), [4.1.2](https://www.w3.org/TR/WCAG2/#name-role-value)|[HM1410200C](https://accessibility.moda.gov.tw/Download/Detail/1525)|14/14|0/7|不一致|
@@ -147,7 +147,7 @@ Freego 是由數位發展部提供的自動化檢測工具，用於台灣各級�
 |[Visible label is part of accessible name](https://www.w3.org/WAI/standards-guidelines/act/rules/2ee8b8/proposed/)|[2.5.3](https://www.w3.org/TR/WCAG2/#label-in-name)||||未實作|
 |[Zoomed text node is not clipped with CSS overflow](https://www.w3.org/WAI/standards-guidelines/act/rules/59br37/proposed/)|[1.4.4](https://www.w3.org/TR/WCAG2/#resize-text)||||未實作|
 
-## Freego 檢測規則（檢測碼）與 ACT-R 檢測規則相容性
+## Freego 檢測規則（檢測碼）與 ACT Rules 檢測規則相容性
 
 |完全相容|部分相容|不相容|無法對應|合計|
 |--------|--------|------|--------|----|
@@ -157,24 +157,24 @@ Freego 是由數位發展部提供的自動化檢測工具，用於台灣各級�
 
 #### 完全相容
 
-指 Freego 檢測規則可對應至 ACT-R 檢測規則，且所有對應規則均達到`一致`之相容性。
+指 Freego 檢測規則可對應至 ACT Rules 檢測規則，且所有對應規則均達到`一致`之相容性。
 
 完全相容的 Freego 檢測規則表示可獲得國際社群認可，可用於檢測網頁無障礙符合程度。
 
 #### 部分相容
 
-指 Freego 檢測規則可對應至 ACT-R 檢測規則，但僅部分對應規則達到`一致`之相容性，或所有對應規則均達到`部分一致`之相容性。
+指 Freego 檢測規則可對應至 ACT Rules 檢測規則，但僅部分對應規則達到`一致`之相容性，或所有對應規則均達到`部分一致`之相容性。
 
 部分相容的 Freego 檢測規則表示尚有改善空間，應謹慎考量如何用於檢測網頁無障礙符合程度。
 
 #### 不相容
 
-指 Freego 檢測規則可對應至 ACT-R 檢測規則，且所有對應規則均為`不一致`之相容性。
+指 Freego 檢測規則可對應至 ACT Rules 檢測規則，且所有對應規則均為`不一致`之相容性。
 
 不相容的 Freego 檢測規則表示判斷結果不可信，應重新檢討修訂檢測碼之實作，建議勿用於檢測網頁無障礙符合程度。
 
 #### 無法對應
 
-指 Freego 檢測規則無法對應至 ACT-R 檢測規則。
+指 Freego 檢測規則無法對應至 ACT Rules 檢測規則。
 
 無法對應的 Freego 檢測規則表示國際社群普遍認為相關檢測規則尚不成熟，極容易誤判，應充分與國際社群討論檢測規則適當性，建議勿用於檢測網頁無障礙符合程度。
