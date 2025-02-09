@@ -4,6 +4,8 @@ Freego 是由數位發展部提供的自動化檢測工具，用於台灣各級�
 
 為確認 Freego 檢測之信效度，爰採用 W3C [ACT Rules Community Group](https://www.w3.org/community/act-r/) 維護之[測試案例](https://act-rules.github.io/pages/implementations/testcases/)進行測試，測試結果可與[其他檢測工具或方法](https://www.w3.org/WAI/standards-guidelines/act/implementations/)進行比較。
 
+> 注意：此份相容性報告**不包含**人工檢測之信效度。台灣現行的網站無障礙檢測機制係搭配自動化檢測工具及人工檢測合併執行。
+
 ## 測試結果判定方式
 
 由於目前 Freego 版本尚不能產製符合 W3C [Evaluation and Report Language (EARL) 1.0 Schema](https://www.w3.org/TR/EARL10-Schema/) 格式之檢測報告，故現階段採用 [ACT Implementor](https://act-implementor.netlify.app/) 工具手動產製檢測相容性報告。又，Freego 目前版本尚不能指定特定一個或多個檢測碼進行檢測，測試檢測相容性之程序調整如下：
