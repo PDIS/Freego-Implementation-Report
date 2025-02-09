@@ -6,7 +6,7 @@ Freego 是由數位發展部提供的自動化檢測工具，用於台灣各級�
 
 ## 測試結果判定方式
 
-由於目前 Freego 版本尚不能產製符合 W3C [Evaluation and Report Language (EARL) 1.0 Schema](https://www.w3.org/TR/EARL10-Schema/) 格式之檢測報告，故現階段本專案將採用 [ACT Implementor](https://act-implementor.netlify.app/) 工具手動產製檢測相容性報告。又，Freego 目前版本尚不能指定特定一個或多個檢測碼進行檢測，測試檢測相容性之程序調整如下：
+由於目前 Freego 版本尚不能產製符合 W3C [Evaluation and Report Language (EARL) 1.0 Schema](https://www.w3.org/TR/EARL10-Schema/) 格式之檢測報告，故現階段採用 [ACT Implementor](https://act-implementor.netlify.app/) 工具手動產製檢測相容性報告。又，Freego 目前版本尚不能指定特定一個或多個檢測碼進行檢測，測試檢測相容性之程序調整如下：
 
 1. 檢視 ACT Rules Test Cases 規則名稱及內容
 2. 判斷對應的（一個或多個）檢測碼，填入 `Implementation Procedure Name`；若無對應檢測碼，則該規則所有測試案例的 `Outcome` 記錄為 `Inapplicable`
@@ -14,6 +14,8 @@ Freego 是由數位發展部提供的自動化檢測工具，用於台灣各級�
 4. Freego 產出之報告中，若發生`頁面載入逾時`，則相關的 `Outcome` 欄位記錄為 `Inapplicable`
 
 ## ACT Rules 檢測相容性
+
+Freego 與 [ACT Rules Implementation in Automated Test Tools](https://www.w3.org/WAI/standards-guidelines/act/implementations/#automated-test-tools) 列出之各種自動化檢測工具比較如下：
 
 |自動化檢測工具及版本|一致|部分一致|不一致：誤判|不一致：無效|不一致：誤判且無效|未實作|合計|
 |--------------------|----|--------------|--------------|--------------------|------|------|----|
