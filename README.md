@@ -17,13 +17,13 @@ Freego 是由數位發展部提供的自動化檢測工具，用於台灣各級�
 
 |自動化檢測工具及版本|一致|部分一致|不一致：誤判|不一致：無效|不一致：誤判且無效|未實作|合計|
 |--------------------|----|--------------|--------------|--------------------|------|------|----|
-|Freego `Sep 27 2024`|1|0|13 (+5)|14 (+5)|5|54|87|
-|[Alfa (fully automated)](https://alfa.siteimprove.com/) `0.80.0`|31|8|??|??|??|??|87|
-|[Axe-core](https://www.npmjs.com/package/axe-core/) `4.8.3`|30|11|??|??|??|??|87|
-|[Equal Access Accessibility Checker](https://www.ibm.com/able/toolkit/) `3.1.42-rc.0`|25|5|??|??|??|??|87|
-|[QualWeb](http://qualweb.di.fc.ul.pt/evaluator/) `3.0.0`|41|20|??|??|??|??|87|
-|[SortSite](https://www.powermapper.com/products/sortsite/) `6.45`|44|0|??|??|??|??|87|
-|[Total Validator (+Browser)](https://www.totalvalidator.com/) `17.4.0`|44|1|??|??|??|??|87|
+|Freego<br>`Sep 27 2024`|1|0|13 (+5)|14 (+5)|5|54|87|
+|[Alfa (fully automated)](https://alfa.siteimprove.com/)<br>`0.80.0`|31|8|??|??|??|??|87|
+|[Axe-core](https://www.npmjs.com/package/axe-core/)<br>`4.8.3`|30|11|??|??|??|??|87|
+|[Equal Access Accessibility Checker](https://www.ibm.com/able/toolkit/)<br>`3.1.42-rc.0`|25|5|??|??|??|??|87|
+|[QualWeb](http://qualweb.di.fc.ul.pt/evaluator/)<br>`3.0.0`|41|20|??|??|??|??|87|
+|[SortSite](https://www.powermapper.com/products/sortsite/)<br>`6.45`|44|0|??|??|??|??|87|
+|[Total Validator (+Browser)](https://www.totalvalidator.com/)<br>`17.4.0`|44|1|??|??|??|??|87|
 
 註：`不一致：誤判`及`不一致：無效`標示的`(+5)`係表示另有`不一致：誤判且無效`單獨計算。
 
