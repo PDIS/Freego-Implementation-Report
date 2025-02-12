@@ -29,7 +29,7 @@ Freego 與 [ACT Rules Implementation in Automated Test Tools](https://www.w3.org
 |[SortSite](https://www.powermapper.com/products/sortsite/)<br>`6.45`|44|0|??|??|??|??|87|
 |[Total Validator (+Browser)](https://www.totalvalidator.com/)<br>`17.4.0`|44|1|??|??|??|??|87|
 
-> 註一：`不一致：誤判`及`不一致：無效`標示的`(+5)`係表示另有`不一致：誤判且無效`單獨計算。
+> 註一：Freego 在`不一致：誤判`及`不一致：無效`欄位標示的`(+5)`係表示另有`不一致：誤判且無效`單獨計算。
 
 > 註二：總計 87 個 ACT Rules 檢測規則包含無法自動檢測（只能以人工檢測）的規則、非強制性（非規範性，而是最佳實作建議）的規則等，目前沒有任何檢測工具以「實作所有規則」為發展目標。
 
